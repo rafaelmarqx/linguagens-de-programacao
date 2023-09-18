@@ -1,8 +1,10 @@
 # linguagens-de-programacao
 
 O projeto desenvolvido foi um sistema de loteria chamado “LOTOFÁCIL”, em Java. O sistema deve ser capaz de gerar jogos aleatórios, permitir que os jogadores façam suas apostas, verificar os resultados e calcular prêmios de acordo com as regras da loteria. Este sistema funcionará por meio do terminal, lendo e escrevendo dados.
+
 Regras de negócio/requisitos:
-• Foi um menu para a loteria utilizando as estruturas switch case e do while. Enquanto o usuário não digitar 0, para sair, novas apostas serão permitidas.
+• Foi realizado um menu para a loteria utilizando as estruturas switch case e do while. Enquanto o usuário não digitar 0, para sair, novas apostas serão permitidas.
+
 **************************
 Menu LOTOFÁCIL:
 1) Apostar de 0 a 100
@@ -10,6 +12,7 @@ Menu LOTOFÁCIL:
 3) Apostar em par ou ímpar
 0) Sair
 **************************
+
 As regras para a aposta de 0 a 100, são:
 • Utilizando a biblioteca Scanner, será lido um número inteiro via teclado, de 0 a 100, caso o número seja maior que 100 ou menor que 0, será imprimida a seguinte mensagem: “Aposta inválida.”. A biblioteca Random será utilizada para sortear aleatoriamente um número de 0 a 100. Será Comparado o número escolhido pelo usuário apostador com o número sorteado pelo sistema. Caso o usuário acerte a aposta, será imprimida a mensagem “Você ganhou R$ 1.000,00 reais.”. Caso o usuário erre, a mensagem: “Que pena! O número sorteado foi: X.”. 
 
